@@ -1,3 +1,8 @@
-#pragma once
+//
+// Created by shalaga44 on 11/19/20.
+//
 
-#include "mod/mod.h"
+#pragma once
+#include "utils/utils.h"
+#include "shape/shape.h"
+#include "ellipse/ellipse.h"

@@ -1,5 +1,13 @@
+//
+// Created by shalaga44 on 11/19/20.
+//
+
 #include "main.h"
 
 int main() {
-	hello("world");
+
+    Ellipse x(6, 2);
+    println(x.area(), "Π");
+
+
 }
