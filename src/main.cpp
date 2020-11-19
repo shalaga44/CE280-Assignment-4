@@ -6,8 +6,9 @@
 
 int main() {
 
-    Ellipse x(6, 2);
-    println(x.area(), "Π");
+    Ellipse e(6, 2);
+    println("Ellipse area =", e.area(), "Π");
+    println("Ellipse circumference =", e.circumference(), "meters");
 
 
 }

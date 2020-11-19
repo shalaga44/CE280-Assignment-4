@@ -9,3 +9,5 @@
 void println(const std::string &msg);
 
 void println(double d, const std::string &string);
+
+void println(const std::string &string0, double d, const std::string &string1);

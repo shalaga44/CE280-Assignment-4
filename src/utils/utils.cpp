@@ -13,3 +13,8 @@ void println(const std::string &msg) {
 void println(double d, const std::string &string) {
     std::cout << d << " " << string << std::endl;
 }
+
+void println(const std::string &string0, double d, const std::string &string1) {
+    std::cout << string0 << " " << d << " " << string1 << std::endl;
+
+}

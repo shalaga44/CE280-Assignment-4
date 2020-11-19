@@ -19,5 +19,5 @@ public:
     // area = Πab
     double area() override;
 
-    double contour() override;
+    double circumference() override;
 };
