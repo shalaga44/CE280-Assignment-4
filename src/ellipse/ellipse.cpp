@@ -3,7 +3,7 @@
 //
 
 #include "ellipse/ellipse.h"
-#include <math.h>
+#include <cmath>
 
 
 double Ellipse::area() {
@@ -11,9 +11,9 @@ double Ellipse::area() {
 }
 
 double Ellipse::circumference() {
-    const double PI = 3.141592654;
-
     return (2 * PI) * sqrt(((a * a) + (b * b)) / 2);
 }
 
 Ellipse::Ellipse(double a, double b) : a(a), b(b) {}
+
+Ellipse::Ellipse() {};

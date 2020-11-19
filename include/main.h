@@ -3,6 +3,8 @@
 //
 
 #pragma once
+
 #include "utils/utils.h"
 #include "shape/shape.h"
 #include "ellipse/ellipse.h"
+#include "circle/circle.h"
