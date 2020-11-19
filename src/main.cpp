@@ -10,7 +10,12 @@ int main() {
     println("Ellipse area =", e.area(), "Π");
     println("Ellipse circumference =", e.circumference(), "meters");
 
+    println("----------------------------------------------------------");
+
     Circle c(3);
     println("Circle area =", c.area(), "meters²");
+    println("Circle circumference =", c.circumference(), "meters");
+
+    println("----------------------------------------------------------");
 
 }

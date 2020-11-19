@@ -11,6 +11,6 @@ double Circle::area() {
 }
 
 double Circle::circumference() {
-    return Ellipse::circumference();
+    return 2 * PI * radius;
 }
 
