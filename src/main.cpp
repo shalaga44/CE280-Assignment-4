@@ -1,21 +1,29 @@
-//
-// Created by shalaga44 on 11/19/20.
-//
-
 #include "main.h"
-
 int main() {
 
-    Ellipse e(6, 2);
-    println("Ellipse area =", e.area(), "Π");
-    println("Ellipse circumference =", e.circumference(), "meters");
+    Ellipse myEllips(6, 2);
+    println( "Ellipse area =" , myEllips.area() , "Π" );
+    println( "Ellipse circumference =" , myEllips.circumference() , "meters" );
 
-    println("----------------------------------------------------------");
+    Circle myCircle(3);
+    println( "Circle area =" , myCircle.area() , "meters²");
+    println( "Circle circumference =" , myCircle.circumference() , "meters");
 
-    Circle c(3);
-    println("Circle area =", c.area(), "meters²");
-    println("Circle circumference =", c.circumference(), "meters");
+    Polygon myPolygon(10, 6);
+    println( "Polygon area =" , myPolygon.area() , "meters²");
+    println( "Polygon circumference =" , myPolygon.circumference() , "meters");
 
-    println("----------------------------------------------------------");
+    Triangle myTriangle(10, 20, 30, 20, 50);
+    println( "Triangle area =" , myTriangle.area() , "meters²");
+    println( "Triangle circumference =" , myTriangle.circumference() , "meters");
+
+    Rectangle myRectangle(10, 20);
+    println( "Rectangle area =" , myRectangle.area() , "meters²");
+    println( "Rectangle circumference =" , myRectangle.circumference() , "meters");
+
+    Square mySquare(10);
+    println( "Square area =" , mySquare.area() , "meters²");
+    println( "Square circumference =" , mySquare.circumference() , "meters");
+
 
 }

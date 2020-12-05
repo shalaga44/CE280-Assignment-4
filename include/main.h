@@ -8,3 +8,10 @@
 #include "shape/shape.h"
 #include "ellipse/ellipse.h"
 #include "circle/circle.h"
+#include "polygon/polygon.h"
+#include "Triangle/Triangle.h"
+#include "Rectangle/Rectangle.h"
+#include "Square/Square.h"
+#include <iostream>
+using namespace std;
+
